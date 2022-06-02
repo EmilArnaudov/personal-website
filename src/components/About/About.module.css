@@ -1,0 +1,38 @@
+.subheading {
+    display: flex;
+    align-items: center;
+}
+
+.horizontalLine {
+    display: inline-block;
+    width: 60px;
+    background-color: black;
+    height: 0.5px;
+    margin-left: 8px;
+    margin-right: 48px;
+}
+
+.greeting {
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.aboutHeading {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 48px;
+}
+
+.aboutMe {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+}
+
+.highlight {
+    color: #8e53e1;
+}
