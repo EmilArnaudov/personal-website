@@ -1,5 +1,6 @@
 .container {
-    height: 95vh;
+    height: 80vh;
+    margin-top: 100px;
 }
 
 .hello {
@@ -39,7 +40,8 @@
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    align-items: center;
+    gap: 36px;
     margin-bottom: 26px;
     margin-top: 26px;
 }

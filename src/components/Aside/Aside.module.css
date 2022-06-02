@@ -1,0 +1,46 @@
+.aside {
+    position: fixed;
+    left: -330px;
+    z-index: 10;
+    background-color: #8e53e1;
+    width: 0px;
+    height: 100vh;
+    width: 220px;
+    transition: left 400ms ease-in;
+    padding: 24px;
+}
+
+.asideShow {
+    left: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    padding: 24px 0px;
+    text-align: center;
+}
+
+.navItems{
+    text-align: center;
+    padding-left: 36px;
+}
+
+.navItem {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+
+    margin: 38px 0px;
+
+    display: flex;
+    gap: 12px;
+
+}
