@@ -1,0 +1,101 @@
+.container {
+    height: 95vh;
+}
+
+.hello {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+
+.myName {
+    /* font-family: 'Roboto Mono', monospace; */
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 26px;
+}
+
+.highlight {
+    color: #8e53e1;
+}
+
+.description {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    font-weight: 500;
+    color: gray;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 26px;
+    margin-top: 26px;
+}
+
+.resume {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #8e53e1;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 24px;
+    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.contactButton {
+    color: #8e53e1;
+    border: none;
+    background-color: white;
+    font-size: 24px;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.16); 
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.16);
+    border-radius: 6px;
+    padding: 8px 8px;
+}
+
+/* FONT-SIZE ----------------------- */
+@media screen and (max-width: 460px) {
+    .container {
+        font-size: 14px;
+    }
+
+    .myName {
+        font-size: 1.7rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+        letter-spacing: 0.03rem;
+    }
+
+    .resume {
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 26px;
+        margin-top: 26px;
+    }
+
+    .buttons {
+        display: block;
+    }
+
+    .contactButtons {
+        text-align: center;
+    }
+  }
