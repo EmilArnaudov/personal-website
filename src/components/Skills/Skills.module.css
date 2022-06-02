@@ -1,0 +1,78 @@
+.subheading {
+    display: flex;
+    align-items: center;
+}
+
+.horizontalLine {
+    display: inline-block;
+    width: 60px;
+    background-color: black;
+    height: 0.5px;
+    margin-left: 8px;
+    margin-right: 24px;
+}
+
+.greeting {
+    font-size: 12px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.skillsHeading {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    margin-bottom: 48px;
+}
+
+.skillsListing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+} 
+
+.skillsImage {
+    height: 40px;
+    width: 40px;
+}
+
+.skillContainer {
+    text-align: center;
+    width: 80px;
+    margin: 0 auto;
+    padding: 6px;
+    border-radius: 8px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.16); 
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.16);
+}
+
+.skillName {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.frontEnd {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+
+@media screen and (max-width: 450px) {
+    .skillsListing {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .skillsListing {
+        grid-template-columns: 1fr 1fr;
+    }
+}

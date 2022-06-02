@@ -1,3 +1,7 @@
+.container {
+    height: 100vh;
+}
+
 .subheading {
     display: flex;
     align-items: center;
@@ -9,7 +13,7 @@
     background-color: black;
     height: 0.5px;
     margin-left: 8px;
-    margin-right: 48px;
+    margin-right: 24px;
 }
 
 .greeting {
