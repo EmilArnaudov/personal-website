@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Aside from './components/Aside/Aside';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
+import Projects from './components/Projects/Projects';
 
 import { useState } from 'react';
 
@@ -24,6 +25,7 @@ function App() {
       <Welcome></Welcome>
       <About></About>
       <Skills></Skills>
+      <Projects></Projects>
     </div>
   );
 }
