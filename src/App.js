@@ -6,7 +6,7 @@ import About from './components/About/About';
 import Skills from './components/Skills/Skills';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
-
+import Footer from './components/Footer/Footer';
 
 import { useState } from 'react';
 
@@ -22,13 +22,16 @@ function App() {
 
   return (
     <div className="App">
-      <Aside showAside={showAside}></Aside>
-      <Header burgerMenuClick={burgerMenuClick} ></Header>
-      <Welcome></Welcome>
-      <About></About>
-      <Skills></Skills>
-      <Projects></Projects>
-      <Contact></Contact>
+      <div className="InnerWrapper">
+        <Aside showAside={showAside}></Aside>
+        <Header burgerMenuClick={burgerMenuClick} ></Header>
+        <Welcome></Welcome>
+        <About></About>
+        <Skills></Skills>
+        <Projects></Projects>
+        <Contact></Contact>
+        <Footer></Footer>
+      </div>
     </div>
   );
 }

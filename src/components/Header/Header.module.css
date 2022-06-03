@@ -21,3 +21,9 @@
     background-color: #8e53e1;
     color: white;
 }
+
+@media screen and (min-width: 990px) {
+    .hamburger {
+        display: none;
+    }
+}

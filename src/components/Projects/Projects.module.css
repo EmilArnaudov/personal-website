@@ -102,3 +102,23 @@
     cursor: pointer;
 
 }
+
+@media screen and (min-width: 769px) {
+    .projectsContainer {
+        background-color: white;
+        padding: 36px;
+        border-radius: 22px;
+    }
+
+    .project {
+        flex-direction: row;
+    }
+
+    .projectImageContainer {
+        width: 70%;
+    }
+
+    .projectDetails {
+        width: 30%;
+    }
+}

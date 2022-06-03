@@ -3,15 +3,25 @@
 
 }
 
-@media screen and (max-width: 460px) {
+.InnerWrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 321px) {
   .App {
-      font-size: 14px;
-      padding: 0px 20px;
+    padding: 0 10px;
   }
 }
 
-@media screen and (min-width: 461px) {
+@media screen and (min-width: 990px) {
   .App {
-    padding: 0px 28px;
+    padding-left: 120px;
+  }
+}
+
+@media screen and (min-width: 1140px) {
+  .App {
+
   }
 }

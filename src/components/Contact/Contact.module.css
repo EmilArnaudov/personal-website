@@ -126,3 +126,30 @@
 
     margin-top: 24px;
 }
+
+@media screen and (min-width: 769px) {
+    .contactContainer {
+        background-color: white;
+        padding: 36px;
+        border-radius: 22px;
+    }
+
+    .form > input {
+        border: 3px solid lightgray;
+        font-size: 18px;
+    }
+
+    .emailIconSpan {
+        background-color: transparent;
+    }
+
+    .form > textarea {
+        border: 3px solid lightgray;
+        font-size: 18px;
+    }
+
+    .envelope {
+        padding: 16px;
+        background-color: #f3f9f4;
+    }
+}
