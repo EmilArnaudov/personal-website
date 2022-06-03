@@ -2,7 +2,7 @@ import styles from './About.module.css';
 
 export default function About() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="about">
             <div className={styles.subheading}>
                 <div className={styles.horizontalLine}></div>
                 <p className={styles.greeting}>NICE TO MEET YOU</p>

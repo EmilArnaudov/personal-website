@@ -2,7 +2,7 @@ import styles from './Skills.module.css';
 
 export default function Skills() {
     return (
-        <div className={styles.container}>
+        <div className={styles.container} id="skills">
             <div className={styles.subheading}>
                 <div className={styles.horizontalLine}></div>
                 <p className={styles.greeting}>CHECK OUT MY</p>
