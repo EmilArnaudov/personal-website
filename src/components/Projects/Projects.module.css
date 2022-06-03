@@ -90,6 +90,11 @@
     border: none;
     padding: 6px 12px;
     cursor: pointer;
+    transition: all 350ms ease-in;
+}
+
+.live:hover {
+    padding: 7px 13px;
 }
 
 .code {
@@ -100,7 +105,11 @@
     border: 1px solid #8e53e1;
     padding: 6px 12px;
     cursor: pointer;
+    transition: all 350ms ease-in;
+}
 
+.code:hover {
+    padding: 7px 13px;
 }
 
 @media screen and (min-width: 769px) {
