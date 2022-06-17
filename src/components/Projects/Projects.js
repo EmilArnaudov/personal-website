@@ -12,6 +12,34 @@ export default function Projects() {
             
 
             <div className={styles.projectContainer}>
+                
+
+            <div className={styles.project}>
+                    <div className={styles.projectImageContainer}>
+                        <img className={styles.projectImage} src="/images/weatherApp.png" alt="" />
+                    </div>
+                    <div className={styles.projectDetails}>
+                        <p className={styles.projectName}>ForeWeather</p>
+                        <p className={styles.technologiesUsed}>Technologies used: <span className={styles.highlight}>React</span>, <span className={styles.highlight}>HTML</span>, <span className={styles.highlight}>CSS</span></p>
+                        <ul className={styles.list}>
+                        <li>
+                            <p className={styles.listDescription}>Uses the user's location to give accurate weather details for the next 5 days. Other locations can be checked through the search bar.</p>
+                        </li>
+                        <li >
+                            <p className={styles.listDescription}>Uses GoogleMaps API for locations.</p>
+                        </li>
+                        <li>
+                            <p className={styles.listDescription}>Uses OpenWeatherMap API for weather forecast.</p>
+                        </li>
+                    </ul>
+
+                    <div className={styles.buttons}>
+                        <a className={styles.live} target='_blank' href="https://fore-weather-app.firebaseapp.com/">Live</a>
+                        <a className={styles.code} target='_blank' href="https://github.com/EmilArnaudov/react-softuni/tree/main/weather-forecast">Code</a>
+                    </div>
+                    </div>
+                </div>
+
                 <div className={styles.project}>
                     <div className={styles.projectImageContainer}>
                         <img className={styles.projectImage} src="/images/chatApp.png" alt="" />
@@ -32,37 +60,12 @@ export default function Projects() {
                     </ul>
 
                     <div className={styles.buttons}>
-                        <a className={styles.live} href="">Live</a>
-                        <a className={styles.code} href="">Code</a>
+                        <a className={styles.code} target="_blank" href="https://github.com/EmilArnaudov/react-chat-app">Code</a>
                     </div>
                 </div>
-            </div>
-
-                <div className={styles.project}>
-                    <div className={styles.projectImageContainer}>
-                        <img className={styles.projectImage} src="/images/weatherApp.png" alt="" />
-                    </div>
-                    <div className={styles.projectDetails}>
-                        <p className={styles.projectName}>ForeWeather</p>
-                        <p className={styles.technologiesUsed}>Technologies used: <span className={styles.highlight}>React</span>, <span className={styles.highlight}>HTML</span>, <span className={styles.highlight}>CSS</span></p>
-                        <ul className={styles.list}>
-                        <li>
-                            <p className={styles.listDescription}>Uses the user's location to give accurate weather details for the next 5 days. Other locations can be checked through the search bar.</p>
-                        </li>
-                        <li >
-                            <p className={styles.listDescription}>Uses GoogleMaps API for locations.</p>
-                        </li>
-                        <li>
-                            <p className={styles.listDescription}>Uses OpenWeatherMap API for weather forecast.</p>
-                        </li>
-                    </ul>
-
-                    <div className={styles.buttons}>
-                        <a className={styles.live} href="">Live</a>
-                        <a className={styles.code} href="">Code</a>
-                    </div>
-                    </div>
                 </div>
+
+                
             </div>
             
         </div>
